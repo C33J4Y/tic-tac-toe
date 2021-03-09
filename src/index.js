@@ -79,7 +79,7 @@ function Square(props) {
       this.setState({
         history: history.concat([{
           squares: squares,
-          //Store the index of the latst moved square
+          //Store the index of the latest moved square
           latestMoveSquare: i
         }]),
         stepNumber: history.length,
